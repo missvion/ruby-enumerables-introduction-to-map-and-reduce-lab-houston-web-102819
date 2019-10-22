@@ -62,7 +62,6 @@ end
   
   
 def reduce_to_all_true(source_array)
-  total = 0
   index = 0
   
   while index < source_array.length do
@@ -70,11 +69,12 @@ def reduce_to_all_true(source_array)
     index += 1
   
   end
-  total
 end
    
 def reduce_to_any_true(source_array)
-  total = 0
   index = 0
+  
+  while index < source_array.length do
+    
   
   
