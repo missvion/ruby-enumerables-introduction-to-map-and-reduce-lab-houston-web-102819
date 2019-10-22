@@ -4,9 +4,10 @@ def map_to_negativize(source_array)
   final_array = []
   
   while index < source_array.length do
-    final_array << -source_array[index]
+    final_array << source_array[index] * -1
     index += 0
     
   end
+  final_array
 end
     
