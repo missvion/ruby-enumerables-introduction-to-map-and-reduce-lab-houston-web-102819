@@ -34,7 +34,7 @@ def map_to_double(source_array)
     index += 1
     
   end
-  final_arraay
+  final_array
 end
 
 def map_to_square(source_array)
