@@ -11,6 +11,7 @@ def map_to_negativize(source_array)
   final_array
 end
 
+
 def map_to_no_change(source_array)
   final_array = []
   index = 0
@@ -18,6 +19,7 @@ def map_to_no_change(source_array)
   while index < source_array.length do
     final_array << source_array[index]  
     index += 1 
+    
   end
   final_array
 end    
@@ -28,8 +30,20 @@ def map_to_double(source_array)
   index = 0
   
   while index < source_array.length do
-    final_array << 
+    final_array << source_array[index] * 2
+    index += 1
     
   end
-  
+  final_arraay
+end
+
+def map_to_square(source_array)
+  final_array = []
+  index = 0
+
+  while index < source_array.length do
+    final_array << source_array[index] ** 2
+    index += 1
+  end
+  final_array
 end
